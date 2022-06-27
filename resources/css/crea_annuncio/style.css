@@ -1,0 +1,145 @@
+.custom-header-title-create-announce {
+    margin-top: 40px;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(242, 242, 242);
+
+}
+
+
+
+.img-backgound-create-announce {
+    height: 200vh;
+    width: 100vw;
+    position: absolute;
+    top: 0vh;
+    background: linear-gradient(rgba(22, 147, 200, 1),rgb(242, 242, 242,0.5));
+    background-size: 100%;
+    z-index: -5;
+}
+.c-custom {
+    margin-top: 100px;
+    padding-bottom: 30px;
+    position: relative;
+    width: 60vw;
+    padding-top: 30px;
+    background-color: rgb(242, 242, 242);
+    box-shadow: 3px 3px #01295c;
+    color:#01295c;
+    border-radius: 50px;
+}
+@media screen and (max-width:400px) {
+    .c-custom {
+     width: 94vw;
+    }
+}
+
+form {
+    color: #01295c;
+}
+
+input, textarea {
+    background-color: rgb(255, 255, 255) !important;
+    color: #000 !important;
+}
+
+.label-mt {
+    margin-top: 30px;
+}
+
+.select-mt {
+    margin-top: 30px;
+}
+
+select {
+    background-color: rgb(231, 229, 229);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.mx-3{
+    margin-left: 0rem !important;
+}
+
+
+.cta-custom {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 40px;
+    background-color: #01295c !important;
+    border-radius: 10px;
+}
+
+.cta {
+    border: none;
+    background: none;
+}
+
+.cta span {
+    padding-bottom: 7px;
+    letter-spacing: 4px;
+    font-size: 13px;
+    padding-right: 15px;
+    text-transform: uppercase;
+}
+
+.cta svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+}
+
+.cta:hover svg {
+    transform: translateX(0);
+}
+
+.cta:active svg {
+    transform: scale(0.9);
+}
+
+.hover-underline-animation {
+    position: relative;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.separator {
+    height: 10vh;
+}
+
+footer {
+    z-index: 500;
+}

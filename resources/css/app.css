@@ -1,0 +1,13 @@
+@import '~bootstrap/dist/css/bootstrap';
+@import '~@fortawesome/fontawesome-free/css/all';
+@import '~aos/dist/aos';
+@import '~dropzone/dist/basic';
+@import '~dropzone/dist/dropzone';
+@import '../css/home/style.css';
+@import '../css/footer/style.css';
+@import '../css/crea_annuncio/style.css';
+@import '../css/annunci/style.css';
+@import '../css/register/style.css';
+@import '../css/login/style.css';
+@import '../css/announces/style.css';
+@import '~flag-icon-css/css/flag-icons';

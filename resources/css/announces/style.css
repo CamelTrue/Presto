@@ -1,0 +1,121 @@
+
+.desc {
+    font-size: 16px;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+#img-announces {
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 20px;
+}
+
+.cta-custom {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 40px;
+    background-color: rgb(46, 46, 46);
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark-blue);
+}
+
+.cta {
+    border: none;
+    background: none;
+}
+
+.cta span {
+    padding-bottom: 7px;
+    letter-spacing: 4px;
+    font-size: 13px;
+    padding-right: 15px;
+    text-transform: uppercase;
+}
+
+.cta svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+}
+
+.cta:hover svg {
+    transform: translateX(0);
+}
+
+.cta:active svg {
+    transform: scale(0.9);
+}
+
+.hover-underline-animation {
+    position: relative;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+/* show annunci nel dettaglio */
+.show-announces{
+    background: linear-gradient(rgba(22, 147, 200, 1),rgb(242, 242, 242,0.5));
+}
+.title-action-show {
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 4vh;
+}
+.card-show{
+    background-color: var(--white-grey);
+    color: var(--dark-blue);
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 3px 3px #01295c;
+    margin-bottom: 8vh;
+}
+@media screen and (max-width:420px){
+    .card-show{
+        margin: 3vw;
+    }
+}
+.show-category{
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 3vh;
+}
+.card-title-show{
+    font-weight: 700;
+    font-size: 40px;
+}
+.card-category{
+    background-color: var(--white-grey);
+    color: var(--dark-blue);
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px #01295c;
+    padding: 10vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
